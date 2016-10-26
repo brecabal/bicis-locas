@@ -46,7 +46,7 @@ function validateForm(){
 
     //validar password
     passCorrect = document.getElementById("input-password").value;
-    if (passCorrect.length<6 || contraseñaValida=="password" || passCorrect==123456 || passCorrect==098754) {
+    if (passCorrect.length<6 || passCorrect=="password" || passCorrect==123456 || passCorrect==098754) {
         alert("Ingrese una contraseña válida");
         return false;
     }
